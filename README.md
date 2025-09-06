@@ -16,3 +16,10 @@ Este repositorio contiene un laboratorio de Terraform para crear una VM Linux b√
 ```powershell
 ssh-keygen -t rsa -b 4096 -f C:\Users\TU-USUARIO\.ssh\id_rsa
 
+### Inicializar y desplegar
+terraform init
+terraform plan
+terraform apply -auto-approve
+
+### Destruir recursos
+terraform destroy -auto-approve
