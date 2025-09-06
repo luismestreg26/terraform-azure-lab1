@@ -1,11 +1,18 @@
 # terraform-azure-lab1
 
-Objetivo del laboratorio
+# Laboratorio Terraform + Azure (Windows) con SSH
 
-Cómo inicializar y aplicar Terraform (terraform init, terraform apply)
+Este repositorio contiene un laboratorio de Terraform para crear una VM Linux básica en Azure, usando **SSH** para autenticación.
 
-Cómo destruir recursos (terraform destroy)
+## Requisitos
+- Windows 10/11
+- PowerShell
+- Terraform
+- Azure CLI
+- Visual Studio Code (opcional)
+- Llave SSH generada en Windows
 
-Tips sobre contraseña vs SSH
+### Generar llaves SSH en Windows
+```powershell
+ssh-keygen -t rsa -b 4096 -f C:\Users\TU-USUARIO\.ssh\id_rsa
 
-Próximos pasos (outputs, variables, Ansible, pipeline)
