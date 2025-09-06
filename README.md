@@ -23,3 +23,6 @@ terraform apply -auto-approve
 
 ### Destruir recursos
 terraform destroy -auto-approve
+
+
+### 
